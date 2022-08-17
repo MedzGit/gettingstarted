@@ -1,15 +1,26 @@
 {
-	"name": "Suite_Commerce_Base_Theme",
-	"fantasyName": "SuiteCommerce Base Theme",
-	"vendor": "SuiteCommerce",
+	"name": "Medz_BaseTheme",
+	"fantasyName": "Medz_BaseTheme",
+	"vendor": "Medz",
 	"type": "theme",
-	"version": "22.1.0",
 	"target": "SCA,SCS",
 	"target_version": {
 		"SCA": ">=22.1.0",
 		"SCS": ">=22.1.0"
 	},
+	"version": "22.1.0",
+	"description": "getting started activity",
 	"override": [],
+	"skins": [
+		{
+			"name": "Skin 1",
+			"file": "Skins/skin1.json"
+		},
+		{
+			"name": "Skin 2",
+			"file": "Skins/skin2.json"
+		}
+	],
 	"templates": {
 		"application": {
 			"checkout": {
@@ -1263,16 +1274,6 @@
 			"Modules/Wizard/Sass/_wizard.scss"
 		]
 	},
-	"skins": [
-		{
-			"name": "Skin 1",
-			"file": "Skins/skin1.json"
-		},
-		{
-			"name": "Skin 2",
-			"file": "Skins/skin2.json"
-		}
-	],
 	"assets": {
 		"fontawesome": {
 			"files": [
@@ -1374,7 +1375,7 @@
 			]
 		}
 	},
-	"path": "SuiteScripts/extensions/SuiteCommerce/Suite_Commerce_Base_Theme@22.1.0",
-	"activation_id": 1,
-	"extension_id": "1"
+	"path": "SuiteScripts/Deploy_Extensions/Medz/Medz_BaseTheme@22.1.0",
+	"activation_id": "1",
+	"extension_id": "201"
 }
